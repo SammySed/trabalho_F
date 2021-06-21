@@ -1,0 +1,20 @@
+﻿create database fun;
+use fun;
+
+create table funcionario
+(
+id_fun         		int PRIMARY KEY auto_increment,
+nome_fun			varchar(80)	not null,
+sexo_fun 			char(1)		not null,
+dat_fun         	int not null,
+num_cart_fun   	    varchar(80) not null,
+tel_fixo_fun        varchar(80),
+tel_cel_fun         varchar(80) not null,
+email_fun           varchar(100) not null,
+logra_fun           varchar(100) not null,
+num_endereco_fun    int not null,
+comple_fun          varchar(40),
+bairro_fun          varchar(40) not null,
+cidade_fun          varchar(40) not null,
+uf_fun              varchar(10) not null
+);
